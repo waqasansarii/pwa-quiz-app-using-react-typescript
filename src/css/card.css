@@ -1,0 +1,53 @@
+.main_card_div{
+    /* min-width: 500px; */
+    max-width: 900px;
+    margin: 0px auto;
+    /* height: 60vh; */
+    /* max-height: 100vh; */
+    padding: 10px;
+    box-shadow: 0px 0px 10px ;
+    border-radius: 7px;
+}
+.qst_div{
+    display: flex;
+    margin-left: 10px;
+}
+.question{
+    padding: 0px 10px;
+}
+.ansr_btn_div{
+    display: flex;
+    flex-direction: column;
+}
+.ansr_btn{
+    border: none;
+    outline: none;
+    margin-top: 10px;
+    width: 400px;
+    height: 40px;
+    text-align: start;
+    font-size: 1em;
+    max-width: 100% !important;
+}
+.ansr_btn:hover{
+    background-color: snow;
+   color: black;
+}
+.ansr_btn:focus{
+    background-color: greenyellow;
+    color: black;
+}
+.next_btn{
+    border: none;
+    outline: none;
+    margin-top: 20px;
+    width: 100px;
+    height: 40px;
+    margin-left: 10px;
+    background-color: rgb(95, 62, 126);
+    color: white;
+    border-radius: 10px;
+}
+.next_btn:active{
+    background-color: rgb(172, 172, 211);
+}

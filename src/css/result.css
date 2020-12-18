@@ -1,0 +1,26 @@
+.main_result_div{
+    max-width: 400px;
+    margin: 0px auto;
+    height: 20vh;
+    box-shadow: 0px 0px 10px ;
+    text-align: center;
+    align-items: center;
+    /* border-radius: 7px; */
+}
+.score_div{
+   text-align: center;
+   /* margin-top: 40px; */
+   padding: 3px;
+}
+
+.back_btn{
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    margin-top: 10px;
+    width: 100px;
+    height: 40px;
+    text-align: start;
+    background-color: rgb(65, 58, 110);
+    color: white;
+}
