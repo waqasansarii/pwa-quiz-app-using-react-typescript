@@ -5,9 +5,18 @@ import { catagory, quiz } from './types/types'
 import QuizCard from './components/card'
 import ScoreCard from './components/score'
 import Header from './components/header'
+import firebase from "./services/firebase";
 import './App.css';
 
 function App() {
+
+  const message:any = firebase.messaging()
+  message.requestPermission()
+  .then(()=>{
+    return message.getToken()
+  }).then((token:number)=>{
+    console.log('token ', token)
+  })
 
    let [startBtnDis , setStartBtnDis] = useState<boolean>(false)
 
